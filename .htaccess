@@ -4,6 +4,6 @@ RewriteBase  /
 RewriteCond %{REQUEST_URI} !/public/
 RewriteCond %{REQUEST_URI} !/stats/
 
-RewriteRule ^(.*)$ src/$1 [L]
+RewriteRule ^(.*)$ $1 [L]
 
 allow from all
